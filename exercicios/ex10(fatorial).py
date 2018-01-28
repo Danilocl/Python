@@ -4,5 +4,5 @@ fat = 1
 while x <= fim:    
     fat = fat * x
     x = x + 1
-print("o fatorial de é %d: "%fat)
+print("o fatorial de %d é %d: "%(fim,fat))
     

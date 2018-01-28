@@ -7,5 +7,6 @@ while i < 5:
 
     if letras[i] not in 'aeiou':
         cont += 1
+        print("testando")
     i += 1
 print("Foi digitado %d consoantes "%cont)
