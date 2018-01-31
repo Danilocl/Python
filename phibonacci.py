@@ -8,8 +8,7 @@ r = 0
 while k <= (n - 1)/2:
     a,b = b, a + b
     k = k + 1
-    print(b)    
-
+    print(b)
 a,b = b, a + b
 r = int(input("Digite o próximo número: "))
 while r == b and k <= n - 2:
